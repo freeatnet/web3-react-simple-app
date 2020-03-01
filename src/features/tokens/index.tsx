@@ -2,6 +2,7 @@ import { Web3Provider } from '@ethersproject/providers';
 import { useWeb3React } from '@web3-react/core';
 import ethers, { BigNumber } from 'ethers';
 import React, { useEffect, useState } from 'react';
+import ConnectButton from '../web3/ConnectButton';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const ERC20_ABI = require('./erc20.abi.json');
@@ -37,18 +38,23 @@ function TokenInfo({ address }: { address: string }) {
 
   return (
     <div>
-      {address}:
-      {tokenDetails && (
+      {address}:{' '}
+      {(tokenDetails && (
         <>
           {tokenDetails.name}
-          {account && (
+          {(account && (
             <p>
               Balance of {account}:{' '}
               {`${tokenDetails.balanceOf?.toString()} ${tokenDetails.symbol}`}
             </p>
+          )) || (
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <ConnectButton />
+            </div>
           )}
         </>
-      )}
+      )) ||
+        '...'}
     </div>
   );
 }
