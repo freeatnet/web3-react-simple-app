@@ -26,6 +26,9 @@ See [`features/web3`](src/features/web3) for the `web3-react` setup. Note that `
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Learn more in [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 * This app should provide a good starter point, but check out [uniswap-frontend](https://github.com/Uniswap/uniswap-frontend) for a more sophisticated setup.
 
+## Other web3-react Projects
+* https://github.com/aragon/use-wallet: All-in-one solution to connect a dapp to an Ethereum provider.
+
 ## Contributing
 Feel like you can improve this example? PRs are welcome! Just remember that this is intended as starter code. :)
 
