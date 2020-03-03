@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "https://gh.freeatnet.com/web3-react-simple-app/static/css/main.d1b05096.chunk.css",
-    "main.js": "https://gh.freeatnet.com/web3-react-simple-app/static/js/main.e5746121.chunk.js",
-    "main.js.map": "https://gh.freeatnet.com/web3-react-simple-app/static/js/main.e5746121.chunk.js.map",
+    "main.js": "https://gh.freeatnet.com/web3-react-simple-app/static/js/main.54f6ab74.chunk.js",
+    "main.js.map": "https://gh.freeatnet.com/web3-react-simple-app/static/js/main.54f6ab74.chunk.js.map",
     "runtime-main.js": "https://gh.freeatnet.com/web3-react-simple-app/static/js/runtime-main.5beaaf2a.js",
     "runtime-main.js.map": "https://gh.freeatnet.com/web3-react-simple-app/static/js/runtime-main.5beaaf2a.js.map",
-    "static/js/2.84df9527.chunk.js": "https://gh.freeatnet.com/web3-react-simple-app/static/js/2.84df9527.chunk.js",
-    "static/js/2.84df9527.chunk.js.map": "https://gh.freeatnet.com/web3-react-simple-app/static/js/2.84df9527.chunk.js.map",
+    "static/js/2.745a1426.chunk.js": "https://gh.freeatnet.com/web3-react-simple-app/static/js/2.745a1426.chunk.js",
+    "static/js/2.745a1426.chunk.js.map": "https://gh.freeatnet.com/web3-react-simple-app/static/js/2.745a1426.chunk.js.map",
     "index.html": "https://gh.freeatnet.com/web3-react-simple-app/index.html",
-    "precache-manifest.bf6931c7df3055261e6c80dfb0436ba2.js": "https://gh.freeatnet.com/web3-react-simple-app/precache-manifest.bf6931c7df3055261e6c80dfb0436ba2.js",
+    "precache-manifest.1a436b3e533c40c3ef419b3bf87c191d.js": "https://gh.freeatnet.com/web3-react-simple-app/precache-manifest.1a436b3e533c40c3ef419b3bf87c191d.js",
     "service-worker.js": "https://gh.freeatnet.com/web3-react-simple-app/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "https://gh.freeatnet.com/web3-react-simple-app/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.84df9527.chunk.js.LICENSE.txt": "https://gh.freeatnet.com/web3-react-simple-app/static/js/2.84df9527.chunk.js.LICENSE.txt"
+    "static/js/2.745a1426.chunk.js.LICENSE.txt": "https://gh.freeatnet.com/web3-react-simple-app/static/js/2.745a1426.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5beaaf2a.js",
-    "static/js/2.84df9527.chunk.js",
+    "static/js/2.745a1426.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.e5746121.chunk.js"
+    "static/js/main.54f6ab74.chunk.js"
   ]
 }
