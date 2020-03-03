@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
+script:
+  - yarn build
+deploy:
+  provider: pages
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  skip-cleanup: true
+  # Deployment source
+  local-dir: build
+  project-name: freeatnet/web3-react-simple-app
+  on:
+    repo: freeatnet/web3-react-simple-app
+    branch: master
+  # Deployment target
+  target-branch: gh-pages
+  keep-history: true
