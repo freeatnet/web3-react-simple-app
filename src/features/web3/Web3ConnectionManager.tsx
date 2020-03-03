@@ -1,22 +1,13 @@
 import { Web3Provider } from '@ethersproject/providers';
 import { useWeb3React } from '@web3-react/core';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 import { useEagerConnect, useInactiveListener } from './hooks';
 import { network } from './connectors';
 
 function Web3ConnectionManager({ children }: { children: JSX.Element }) {
   const context = useWeb3React<Web3Provider>();
-  const {
-    connector,
-    library,
-    chainId,
-    account,
-    activate,
-    deactivate,
-    active,
-    error,
-  } = context;
+  const { connector, activate, active } = context;
 
   // handle logic to eagerly connect to the injected ethereum provider, if it exists and has granted access already
   const triedEager = useEagerConnect();
